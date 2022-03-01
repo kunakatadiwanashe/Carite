@@ -1,0 +1,36 @@
+#banner{
+    padding: 3em 0 5em 0;
+    .container{
+        display: flex;
+        .banner-info{
+            width: 60%;padding-left: 10px;
+            h1{
+                font-size: 20px;padding-bottom: 10px;font-weight: bold;
+                strong{color: #8CD827;}
+                span{
+                    display: block;
+                }
+            }
+            p{
+                padding-bottom: 20px;
+                span{
+                    display: block;
+                }
+            }
+            button{
+                background-color: #8CD827;box-shadow: 0px 20px 19px -17px rgba(0,0,0,0.75);
+                height: 5vh;width: 150px;border: none;border-radius: 10px;
+            }
+        }
+
+        .banner-imgs{
+            width: 40%;margin-right: 35px;
+           .img{
+               width: 200px;height: 35%;
+               img{
+                   width: 100%;height: 100%;object-fit: contain;
+               }
+           }
+        }
+    }
+}
