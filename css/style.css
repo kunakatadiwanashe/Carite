@@ -1,0 +1,164 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header {
+  /* Hover effects */
+  /* responsive navbar toggle button */
+}
+header .navbar {
+  height: 70px;
+  width: 100%;
+  padding: 14px 30px;
+  position: relative;
+}
+header .navbar .nav-header {
+  display: inline;
+}
+header .navbar .nav-header .nav-logo {
+  display: inline-block;
+  margin-top: -7px;
+  position: absolute;
+  z-index: 10;
+}
+header .navbar .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+header .navbar .nav-links .loginBtn {
+  display: inline-block;
+  padding: 5px 15px;
+  margin-left: 20px;
+  font-size: 17px;
+  color: black;
+}
+header .navbar .nav-links a {
+  padding: 10px 12px;
+  text-decoration: none;
+  font-weight: 550;
+  color: black;
+}
+header .navbar .nav-links a:hover {
+  background-color: #8CD827;
+}
+header .navbar #nav-check, header .navbar .nav-btn {
+  display: none;
+}
+@media (max-width: 700px) {
+  header {
+    /* when nav toggle button not checked */
+    /* when nav toggle button is checked */
+  }
+  header .navbar .nav-btn {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 10;
+  }
+  header .navbar .nav-btn label {
+    display: inline-block;
+    width: 80px;
+    height: 70px;
+    padding: 25px;
+  }
+  header .navbar .nav-btn label span {
+    display: block;
+    height: 4px;
+    width: 30px;
+    background-color: green;
+    margin-bottom: 10px;
+    border: 5%;
+  }
+  header .navbar .nav-btn label #top {
+    width: 15px;
+  }
+  header .navbar .nav-btn label #btm {
+    width: 15px;
+    margin-left: auto;
+  }
+  header .navbar .nav-links {
+    position: absolute;
+    display: block;
+    text-align: center;
+    width: 50%;
+    background-color: #a2a2a2;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 0px;
+    right: 0px;
+  }
+  header .navbar .nav-links a {
+    display: block;
+  }
+  header .navbar #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  header .navbar #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 70px);
+    width: 100%;
+    overflow-y: auto;
+    padding-top: 100px;
+  }
+  header .navbar .nav-links .loginBtn {
+    padding: 10px 40px;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #8CD827;
+    color: black;
+    border: none;
+    border-radius: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
