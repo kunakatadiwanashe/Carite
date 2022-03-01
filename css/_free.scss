@@ -1,0 +1,27 @@
+#free{
+    .container{  
+             display: flex;justify-content: space-between;padding: 0 20px 0 20px;
+            .free-img{
+                width: 40%;height: 40%;
+                img{
+                    width: 100%;height: 100%;object-fit: contain;
+                }
+            }
+            .free-info{
+                width: 50%;
+                h2{
+                    font-size: 36px;font-family: 'vine';
+                }
+                ul{
+                    padding-left: 20px;
+                    li{
+                        list-style: disc;font-weight: bold;font-family: 10px;
+                    }
+                }
+                p{
+                    font-size: 10px;font-style: italic;padding-top: 13px;
+                }
+            }
+        
+    }
+}

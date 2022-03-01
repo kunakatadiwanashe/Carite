@@ -64,7 +64,7 @@ header{
          span{
           display: block;
           height: 4px;
-          width: 30px;
+          width: 32px;
           background-color: green;
           margin-bottom: 10px;
           border: 5%;
@@ -110,4 +110,8 @@ header{
         
       
       }
+}
+button{
+  background-color: #8CD827;box-shadow: 0px 20px 19px -17px rgba(0,0,0,0.75);
+  height: 5vh;width: 150px;border: none;border-radius: 10px;
 }
