@@ -129,10 +129,6 @@ header .navbar #nav-check, header .navbar .nav-btn {
   header .navbar .nav-btn label #top {
     width: 15px;
   }
-  header .navbar .nav-btn label #btm {
-    width: 15px;
-    margin-left: auto;
-  }
   header .navbar .nav-links {
     position: absolute;
     display: block;
@@ -282,6 +278,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   background: #C4C4C4;
   width: 132px;
   height: 112px;
@@ -304,6 +301,12 @@ button {
   display: block;
 }
 
+@media only screen and (min-width: 414px) {
+  #services .container .card {
+    justify-content: space-evenly;
+    margin: 10px;
+  }
+}
 #perfection {
   padding: 3em 0 3em 0;
 }
@@ -319,6 +322,7 @@ button {
   justify-content: center;
   align-items: center;
   border: none;
+  flex-direction: column;
 }
 #perfection .card .img {
   width: 50%;
@@ -459,4 +463,8 @@ footer #copy {
   font-size: 12px;
   text-align: center;
   padding: 20px;
+}
+
+body {
+  background-color: aqua;
 }/*# sourceMappingURL=style.css.map */

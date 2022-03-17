@@ -7,7 +7,7 @@
     .container{
         display: flex;justify-content: space-evenly;flex-wrap: wrap;
         .card{
-            display: flex;align-items: center;justify-content: center;
+            display: flex;align-items: center;justify-content: center;flex-direction: column;
             background: #C4C4C4;width: 132px;height: 112px;margin-bottom: 20px;
             border-radius: 0 0 15px 15px;box-shadow: 10px 5px 49px -17px rgba(0,0,0,0.75);
             img{
@@ -23,4 +23,15 @@
     }
 
 
+}
+
+
+@media only screen and(min-width: 414px) {
+    #services{
+        .container{
+            .card{
+                justify-content: space-evenly;margin: 10px;
+            }
+        }
+    }
 }
