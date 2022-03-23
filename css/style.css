@@ -212,6 +212,7 @@ button {
   width: 150px;
   border: none;
   border-radius: 10px;
+  font-weight: bold;
 }
 #banner .container .banner-imgs {
   width: 30%;
@@ -231,6 +232,41 @@ button {
   display: none;
 }
 
+@media screen and (min-width: 768px) {
+  #banner .container .banner-info {
+    padding-left: 10px;
+  }
+  #banner .container .banner-info h1 {
+    font-size: 45px;
+    padding-bottom: 30px;
+  }
+  #banner .container .banner-info p {
+    padding-bottom: 30px;
+    font-size: 28px;
+  }
+  #banner .container .banner-info button {
+    height: 6vh;
+    width: 250px;
+    font-size: 25px;
+  }
+  #banner .container .banner-imgs {
+    margin-right: 25px;
+  }
+  #banner .container .banner-imgs .img {
+    width: 250px;
+    height: 50%;
+  }
+  #banner .container .banner-imgs .img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  #banner .container .banner-imgs #chev {
+    display: list-item;
+    list-style: none;
+  }
+}
 #free {
   height: 50vh;
   padding: 3em 0 2em 0;
@@ -272,6 +308,36 @@ button {
   padding-top: 13px;
 }
 
+@media screen and (min-width: 768px) {
+  #free {
+    padding: 3em 0 2em 0;
+  }
+  #free .container {
+    padding: 0 20px 0 20px;
+  }
+  #free .container .free-img {
+    width: 40%;
+    height: 60%;
+    margin-top: 30px;
+  }
+  #free .container .free-info {
+    width: 50%;
+  }
+  #free .container .free-info h2 {
+    font-size: 66px;
+    padding-bottom: 20px;
+  }
+  #free .container .free-info ul {
+    padding-left: 20px;
+  }
+  #free .container .free-info ul li {
+    font-size: 27px;
+  }
+  #free .container .free-info p {
+    font-size: 25px;
+    padding-top: 25px;
+  }
+}
 #services {
   padding: 2em 0 2em 0;
 }
@@ -320,6 +386,30 @@ button {
     margin: 10px;
   }
 }
+@media screen and (min-width: 768px) {
+  #services {
+    height: 60vh;
+    padding: 2em 0 2em 0;
+  }
+  #services h2 {
+    font-size: 40px;
+    padding-bottom: 40px;
+  }
+  #services .container {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  #services .container .card {
+    width: 200px;
+    height: 200px;
+  }
+  #services .container .card img {
+    height: 45%;
+  }
+  #services .container .card p {
+    font-size: 25px;
+  }
+}
 #perfection {
   padding: 3em 0 3em 0;
   height: 150vh;
@@ -360,6 +450,32 @@ button {
   display: block;
 }
 
+@media screen and (min-width: 768px) {
+  #perfection {
+    padding: 5em 0 3em 0;
+    height: 85vh;
+  }
+  #perfection h3 {
+    padding-bottom: 40px;
+    font-size: 40px;
+  }
+  #perfection .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  #perfection .container .card {
+    margin-bottom: 20px;
+    width: 45%;
+  }
+  #perfection .container .card .img {
+    width: 100%;
+    height: 200px;
+  }
+  #perfection .container .card p {
+    font-size: 27px;
+  }
+}
 #quotation {
   background: #8CD827;
   padding: 3em 0 3em 0;
@@ -403,6 +519,25 @@ button {
   font-size: 20px;
 }
 
+@media screen and (min-width: 768px) {
+  #quotation h2 {
+    font-size: 40px;
+  }
+  #quotation p {
+    font-size: 27px;
+  }
+  #quotation form input, #quotation form textarea {
+    height: 50px;
+    font-size: 27px;
+  }
+  #quotation form textarea {
+    height: 180px;
+    font-size: 27px;
+  }
+  #quotation form button {
+    font-size: 30px;
+  }
+}
 #contact {
   display: flex;
   justify-content: center;
@@ -428,8 +563,7 @@ button {
   border-radius: 10px 0 0 10px;
 }
 #contact .inner .info {
-  padding-left: 10px;
-  padding-top: 5px;
+  padding: 5px 10px 5px 10px;
 }
 #contact .inner .info h3 {
   font-weight: bold;
@@ -457,6 +591,35 @@ button {
   margin-right: 10px;
 }
 
+@media screen and (min-width: 768px) {
+  #contact {
+    height: 45vh;
+  }
+  #contact .inner {
+    width: 90%;
+    height: 60%;
+  }
+  #contact .inner .img {
+    width: 30%;
+    height: 100%;
+  }
+  #contact .inner .info {
+    padding-left: 30px;
+  }
+  #contact .inner .info h3 {
+    font-size: 40px;
+    padding-bottom: 5px;
+  }
+  #contact .inner .info p {
+    font-size: 27px;
+  }
+  #contact .inner .info .hours {
+    padding-top: 10px;
+  }
+  #contact .inner .info .phone {
+    padding-top: 20px;
+  }
+}
 footer .container .col-md-4 .inner {
   display: flex;
   flex-direction: column;
@@ -473,9 +636,43 @@ footer .container .col-md-4 .inner h3 {
 footer .container .col-md-4 .inner p {
   font-size: 18px;
 }
+footer .container .col-md-4 .inner a {
+  color: black;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
 footer #copy {
   font-weight: lighter;
   font-size: 12px;
   text-align: center;
   padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  footer .container {
+    display: flex;
+  }
+  footer .container .col-md-4 .inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  footer .container .col-md-4 .inner h3 {
+    font-size: 40px;
+  }
+  footer .container .col-md-4 .inner p {
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  footer .container .col-md-4 .inner a {
+    color: black;
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+  footer #copy {
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=style.css.map */

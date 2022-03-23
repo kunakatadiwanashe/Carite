@@ -11,10 +11,43 @@ footer{
                 p{
                     font-size: 18px;
                 }
+                a{
+                    color: black;padding-bottom: 10px;text-decoration: none;
+                }
             }
         }
     }
     #copy{
         font-weight: lighter;font-size: 12px;text-align: center;padding: 20px;
     }
+}
+
+
+
+@media screen and(min-width:768px) {
+    footer{
+        .container{
+            display: flex;
+            .col-md-4{
+                .inner{
+                    display: flex;flex-direction: column;align-items: center;justify-content: center;
+                    padding-bottom: 20px;
+                    h3{
+                        font-size: 40px;
+                       
+                    }
+                    p{
+                        font-size: 20px;padding-bottom: 10px;text-align: center;
+                    }
+                    a{
+                        color: black;padding-bottom: 10px;font-size: 20px;
+                    }
+                }
+            }
+        }
+        #copy{
+            font-size: 16px;
+        }
+    }
+    
 }

@@ -35,3 +35,31 @@
         }
     }
 }
+
+
+@media screen and(min-width:768px) {
+    
+    #services{
+        height: 60vh;
+        padding: 2em 0 2em 0;
+        h2{
+            font-size: 40px;padding-bottom: 40px;
+        }
+        .container{
+           flex-wrap: wrap;justify-content: space-evenly;
+            .card{
+               width: 200px;height: 200px;
+                            
+                img{
+                    height: 45%;
+                }
+                p{
+                    font-size: 25px; 
+                }
+            }
+        }
+    
+    
+    }
+    
+}
