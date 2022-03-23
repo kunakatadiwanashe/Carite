@@ -59,3 +59,35 @@
     }
     
 }
+
+
+@media screen and(min-width:1024px) {
+    #free{
+       
+        padding: 3em 0 2em 0;height: 70vh;
+        .container{  
+                
+                .free-img{
+                    width: 40%;height: 60%;margin-top: 30px;
+                }
+                .free-info{
+                    width: 50%;
+                    h2{
+                        font-size: 86px;padding-bottom: 20px;
+                    }
+                    ul{
+                        padding-left: 20px;
+                        li{
+                            font-size: 37px;
+                        }
+                    }
+                    p{
+                        font-size: 30px;padding-top: 25px;
+                        
+                    }
+                }
+            
+        }
+    }
+    
+}

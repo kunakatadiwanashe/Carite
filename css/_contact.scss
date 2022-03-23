@@ -65,3 +65,27 @@
     }
     
 }
+
+
+@media screen and(min-width:1024px) {
+
+    #contact{
+        height: 60vh;
+    
+        .inner{
+            
+           
+            .info{
+              
+                h3{
+                    font-size: 40px;
+                }
+                p{
+                    font-size: 27px;
+                }
+              
+            }
+        }
+    }
+    
+}

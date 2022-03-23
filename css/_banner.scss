@@ -77,3 +77,35 @@
         }
     }
 }
+
+
+@media screen and(min-width:1024px) {
+    #banner{
+        
+        height: 80vh;
+        .container{
+            .banner-info{  
+                width: 70%;              
+                h1{
+                    font-size: 60px;letter-spacing: 5px;        
+                }
+                p{
+                    font-size: 35px;margin-bottom: 30px;
+                }
+                button{
+                 height: 8vh;width: 270px;font-size: 30px;
+                }
+            }
+    
+            .banner-imgs{
+                width: 30%;
+                margin-right: 5px;
+               .img{
+                   width: 350px;
+                 
+               }
+              
+            }
+        }
+    }
+}

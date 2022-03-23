@@ -267,6 +267,34 @@ button {
     list-style: none;
   }
 }
+@media screen and (min-width: 1024px) {
+  #banner {
+    height: 80vh;
+  }
+  #banner .container .banner-info {
+    width: 70%;
+  }
+  #banner .container .banner-info h1 {
+    font-size: 60px;
+    letter-spacing: 5px;
+  }
+  #banner .container .banner-info p {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+  #banner .container .banner-info button {
+    height: 8vh;
+    width: 270px;
+    font-size: 30px;
+  }
+  #banner .container .banner-imgs {
+    width: 30%;
+    margin-right: 5px;
+  }
+  #banner .container .banner-imgs .img {
+    width: 350px;
+  }
+}
 #free {
   height: 50vh;
   padding: 3em 0 2em 0;
@@ -335,6 +363,34 @@ button {
   }
   #free .container .free-info p {
     font-size: 25px;
+    padding-top: 25px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #free {
+    padding: 3em 0 2em 0;
+    height: 70vh;
+  }
+  #free .container .free-img {
+    width: 40%;
+    height: 60%;
+    margin-top: 30px;
+  }
+  #free .container .free-info {
+    width: 50%;
+  }
+  #free .container .free-info h2 {
+    font-size: 86px;
+    padding-bottom: 20px;
+  }
+  #free .container .free-info ul {
+    padding-left: 20px;
+  }
+  #free .container .free-info ul li {
+    font-size: 37px;
+  }
+  #free .container .free-info p {
+    font-size: 30px;
     padding-top: 25px;
   }
 }
@@ -410,6 +466,35 @@ button {
     font-size: 25px;
   }
 }
+@media screen and (min-width: 1024px) {
+  #services {
+    height: 85vh;
+  }
+  #services h2 {
+    font-size: 55px;
+    height: 35vh;
+    background-image: url("/img/Isuzu_D-Max_LE_Updated_Spec_White_Front_Right-removebg-preview 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  #services .container {
+    margin-top: 20px;
+  }
+  #services .container .card {
+    width: 200px;
+    height: 200px;
+  }
+  #services .container .card img {
+    height: 45%;
+  }
+  #services .container .card p {
+    font-size: 25px;
+  }
+  #services .container .dwnn {
+    margin-top: 60px;
+  }
+}
 #perfection {
   padding: 3em 0 3em 0;
   height: 150vh;
@@ -445,6 +530,7 @@ button {
   font-style: italic;
   padding: 20px 0 10px 0;
   text-align: center;
+  text-transform: capitalize;
 }
 #perfection .card p span {
   display: block;
@@ -467,6 +553,25 @@ button {
   #perfection .container .card {
     margin-bottom: 20px;
     width: 45%;
+  }
+  #perfection .container .card .img {
+    width: 100%;
+    height: 200px;
+  }
+  #perfection .container .card p {
+    font-size: 27px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #perfection {
+    height: 85vh;
+  }
+  #perfection h3 {
+    padding-bottom: 40px;
+    font-size: 40px;
+  }
+  #perfection .container .card {
+    width: 25%;
   }
   #perfection .container .card .img {
     width: 100%;
@@ -536,6 +641,28 @@ button {
   }
   #quotation form button {
     font-size: 30px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #quotation h2 {
+    font-size: 55px;
+  }
+  #quotation p {
+    font-size: 30px;
+  }
+  #quotation form input, #quotation form textarea {
+    height: 70px;
+    font-size: 30px;
+  }
+  #quotation form textarea {
+    height: 180px;
+    font-size: 30px;
+    width: 80%;
+  }
+  #quotation form button {
+    font-size: 35px;
+    width: 25%;
+    height: 8vh;
   }
 }
 #contact {
@@ -620,6 +747,17 @@ button {
     padding-top: 20px;
   }
 }
+@media screen and (min-width: 1024px) {
+  #contact {
+    height: 60vh;
+  }
+  #contact .inner .info h3 {
+    font-size: 40px;
+  }
+  #contact .inner .info p {
+    font-size: 27px;
+  }
+}
 footer .container .col-md-4 .inner {
   display: flex;
   flex-direction: column;
@@ -674,5 +812,16 @@ footer #copy {
   }
   footer #copy {
     font-size: 16px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  footer .container .col-md-4 .inner h3 {
+    font-size: 40px;
+  }
+  footer .container .col-md-4 .inner p {
+    font-size: 28px;
+  }
+  footer .container .col-md-4 .inner a {
+    font-size: 28px;
   }
 }/*# sourceMappingURL=style.css.map */

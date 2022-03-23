@@ -63,3 +63,36 @@
     }
     
 }
+
+
+@media screen and(min-width:1024px) {
+    
+    #services{
+        height: 85vh;
+        
+        h2{
+            font-size: 55px;height: 35vh;
+            background-image: url('/img/Isuzu_D-Max_LE_Updated_Spec_White_Front_Right-removebg-preview\ 1.png');
+            background-repeat: no-repeat;background-position: center;background-size: contain;;
+        }
+        .container{
+           margin-top: 20px;
+            .card{
+               width: 200px;height: 200px;
+                            
+                img{
+                    height: 45%;
+                }
+                p{
+                    font-size: 25px; 
+                }
+            }
+            .dwnn{
+                margin-top: 60px;
+            }
+        }
+    
+    
+    }
+    
+}
