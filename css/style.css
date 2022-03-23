@@ -175,18 +175,21 @@ button {
 
 #banner {
   padding: 3em 0 2em 0;
+  height: 50vh;
+  overflow-x: hidden;
 }
 #banner .container {
   display: flex;
 }
 #banner .container .banner-info {
-  width: 60%;
+  width: 70%;
   padding-left: 10px;
 }
 #banner .container .banner-info h1 {
-  font-size: 20px;
+  font-size: 23px;
   padding-bottom: 10px;
   font-weight: bold;
+  text-transform: capitalize;
 }
 #banner .container .banner-info h1 strong {
   color: #8CD827;
@@ -196,6 +199,8 @@ button {
 }
 #banner .container .banner-info p {
   padding-bottom: 20px;
+  font-size: 20px;
+  text-align: left;
 }
 #banner .container .banner-info p span {
   display: block;
@@ -209,12 +214,12 @@ button {
   border-radius: 10px;
 }
 #banner .container .banner-imgs {
-  width: 40%;
+  width: 30%;
   margin-right: 35px;
 }
 #banner .container .banner-imgs .img {
   width: 200px;
-  height: 35%;
+  height: 70%;
 }
 #banner .container .banner-imgs .img img {
   width: 100%;
@@ -222,7 +227,14 @@ button {
   -o-object-fit: contain;
      object-fit: contain;
 }
+#banner .container .banner-imgs #chev {
+  display: none;
+}
 
+#free {
+  height: 50vh;
+  padding: 3em 0 2em 0;
+}
 #free .container {
   display: flex;
   justify-content: space-between;
@@ -230,7 +242,8 @@ button {
 }
 #free .container .free-img {
   width: 40%;
-  height: 40%;
+  height: 60%;
+  margin-top: 30px;
 }
 #free .container .free-img img {
   width: 100%;
@@ -242,7 +255,7 @@ button {
   width: 50%;
 }
 #free .container .free-info h2 {
-  font-size: 36px;
+  font-size: 46px;
   font-family: "vine";
 }
 #free .container .free-info ul {
@@ -251,16 +264,16 @@ button {
 #free .container .free-info ul li {
   list-style: disc;
   font-weight: bold;
-  font-family: 10px;
+  font-size: 17px;
 }
 #free .container .free-info p {
-  font-size: 10px;
+  font-size: 13px;
   font-style: italic;
   padding-top: 13px;
 }
 
 #services {
-  padding: 5em 0 2em 0;
+  padding: 2em 0 2em 0;
 }
 #services h2 {
   text-align: center;
@@ -309,6 +322,7 @@ button {
 }
 #perfection {
   padding: 3em 0 3em 0;
+  height: 150vh;
 }
 #perfection h3 {
   text-align: center;
@@ -323,10 +337,11 @@ button {
   align-items: center;
   border: none;
   flex-direction: column;
+  margin-bottom: 10px;
 }
 #perfection .card .img {
-  width: 50%;
-  height: 20%;
+  width: 80%;
+  height: 200px;
 }
 #perfection .card .img img {
   width: 100%;
@@ -463,8 +478,4 @@ footer #copy {
   font-size: 12px;
   text-align: center;
   padding: 20px;
-}
-
-body {
-  background-color: aqua;
 }/*# sourceMappingURL=style.css.map */
